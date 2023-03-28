@@ -11,9 +11,7 @@ import { LoginModule } from './login/login.module';
 
 
 @NgModule({
-  declarations: [
-    MainSectionComponent
-  ],
+  declarations: [],
   imports: [
     CommonModule,MainSectionModule,AboutModule,SkillsModule,ProjectsModule,ContactModule,LoginModule
   ]
