@@ -1,1 +1,33 @@
-<p>header works!</p>
+<header class="bg-second-dark py-6 lg:py-8 text-main-white font-gemunu uppercase">
+  <div class="container flex items-center justify-between space-x-3 lg:space-x-6">
+    <!-- Logo -->
+    <a class="text-2xl pl-4 sm:text-3xl md:text-5xl font-bold text-transparent bg-gradient-to-tr bg-clip-text from-main-yellow to-main-white">
+      Devilkin
+    </a>
+
+     <!-- Hamburger menu -->
+     <div class="block sm:hidden pr-4">
+      <div class="space-y-1 cursor-pointer">
+        <div class="bg-gray-300 w-8 h-1 rounded-full"></div>
+        <div class="bg-gray-300 w-8 h-1 rounded-full"></div>
+        <div class="bg-gray-300 w-8 h-1 rounded-full"></div>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="hidden sm:flex justify-between flex-1">
+      <!-- Menu -->
+      <div class="flex items-center text-lg lg:text-xl space-x-8 pl-6 md:pl-12 lg:pl-32">
+        <a href="#" class="hover:text-main-yellow duration-500">Home</a>
+        <a href="#" class="hover:text-main-yellow duration-500">About</a>
+        <a href="#" class="hover:text-main-yellow duration-500">Skills</a>
+        <a href="#" class="hover:text-main-yellow duration-500">Projects</a>
+        <a href="#" class="hover:text-main-yellow duration-500">Contact</a>
+      </div>
+
+      <!-- Profile  -->
+      <div class="flex items-center space-x-8 text-lg">
+        <a class="pr-4 lg:pr-12 hover:text-main-yellow duration-500"><i class="fa fa-user px-0.5"></i> Login</a>
+      </div>
+    </nav>
+  </div>
+</header>
