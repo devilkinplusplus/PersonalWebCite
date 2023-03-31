@@ -10,6 +10,9 @@ import { SkillsComponent } from './skills.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    SkillsComponent
   ]
 })
 export class SkillsModule { }
