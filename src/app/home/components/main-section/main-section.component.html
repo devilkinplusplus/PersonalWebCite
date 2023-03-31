@@ -1,6 +1,6 @@
-<section class="h-96 lg:h-128 group relative font-prompt">
+<section class="h-96 lg:h-128 group relative font-prompt" id="main">
   <!-- Background Image -->
-  <img src="../../../../assets/space.jpg" alt="bg image" class="h-full w-full object-cover"/>
+  <img src="../../../../assets/sky.jpg" alt="bg image" class="h-full w-full object-cover"/>
 
   <!-- Short Description -->
   <div class="absolute pt-24 inset-0 flex flex-col flex-wrap items-start justify-center pl-12 pb-28 bg-gradient-to-b from-transparent to-black">
@@ -17,7 +17,7 @@
       </h4>
       <div class="flex items-center justify-between space-x-4">
          <button type="button" class="bg-main-yellow text-second-dark py-2 px-4 md:py-3 md:px-6 rounded-lg text-lg font-bold
-                hover:bg-main-white duration-500 hover:text-main-yellow">
+                hover:bg-main-white duration-500 hover:text-main-yellow" (click)="downloadResume()">
               Download CV
          </button>
          <button type="button" class="py-2 px-4 md:py-3 md:px-6 text-main-yellow text-lg font-bold hover:text-main-white duration-500">
